@@ -11,8 +11,7 @@ with open("./data/schema_graph.json", "r") as f:
 
 # 构建节点映射
 node_list = graph_data["L0"] + graph_data["L1"] + graph_data["L2"]
-node_mapping = {name: i for i, name in enumerate(node_list)}
-
+node_mapping = graph_data["node_mapping"]
 # 构建边列表
 edges = torch.tensor([[node_mapping[src], node_mapping[dst]] for src, dst in graph_data["edges"]], dtype=torch.long)
 edge_index = edges.t().contiguous()

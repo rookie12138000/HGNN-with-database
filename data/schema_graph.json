@@ -137,5 +137,36 @@
             "company_db",
             "merged_db"
         ]
-    ]
+    ],
+    "node_mapping": {
+        "students.id": 0,
+        "students.name": 1,
+        "students.age": 2,
+        "students.class_id": 3,
+        "students": 4,
+        "classes.id": 5,
+        "classes.class_name": 6,
+        "classes": 7,
+        "teachers.id": 8,
+        "teachers.name": 9,
+        "teachers.subject": 10,
+        "teachers": 11,
+        "./data/school.db": 12,
+        "employees.id": 0,
+        "employees.name": 1,
+        "employees.position": 2,
+        "employees.department_id": 3,
+        "employees": 4,
+        "departments.id": 5,
+        "departments.department_name": 6,
+        "departments": 7,
+        "projects.id": 8,
+        "projects.project_name": 9,
+        "projects.employee_id": 10,
+        "projects": 11,
+        "./data/company.db": 12,
+        "school_db": 26,
+        "company_db": 27,
+        "merged_db": 28
+    }
 }
