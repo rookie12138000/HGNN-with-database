@@ -1,172 +1,160 @@
 {
     "L0": [
-        "students.id",
-        "students.name",
-        "students.age",
-        "students.class_id",
-        "classes.id",
-        "classes.class_name",
-        "teachers.id",
-        "teachers.name",
-        "teachers.subject",
-        "employees.id",
-        "employees.name",
-        "employees.position",
-        "employees.department_id",
-        "departments.id",
-        "departments.department_name",
-        "projects.id",
-        "projects.project_name",
-        "projects.employee_id"
+        "school.db.students.id",
+        "school.db.students.name",
+        "school.db.students.age",
+        "school.db.students.class_id",
+        "school.db.classes.id",
+        "school.db.classes.class_name",
+        "school.db.teachers.id",
+        "school.db.teachers.name",
+        "school.db.teachers.subject",
+        "company.db.employees.id",
+        "company.db.employees.name",
+        "company.db.employees.position",
+        "company.db.employees.department_id",
+        "company.db.departments.id",
+        "company.db.departments.department_name",
+        "company.db.projects.id",
+        "company.db.projects.project_name",
+        "company.db.projects.employee_id"
     ],
     "L1": [
-        "students",
-        "classes",
-        "teachers",
-        "employees",
-        "departments",
-        "projects",
-        "school_db",
-        "company_db"
+        "school.db.students",
+        "school.db.classes",
+        "school.db.teachers",
+        "company.db.employees",
+        "company.db.departments",
+        "company.db.projects"
     ],
     "L2": [
-        "merged_db"
+        "school.db",
+        "company.db"
     ],
     "edges": [
         [
-            "students.id",
-            "students"
+            "school.db.students.id",
+            "school.db.students"
         ],
         [
-            "students.name",
-            "students"
+            "school.db.students.name",
+            "school.db.students"
         ],
         [
-            "students.age",
-            "students"
+            "school.db.students.age",
+            "school.db.students"
         ],
         [
-            "students.class_id",
-            "students"
+            "school.db.students.class_id",
+            "school.db.students"
         ],
         [
-            "students",
-            "./data/school.db"
+            "school.db.students",
+            "school.db"
         ],
         [
-            "classes.id",
-            "classes"
+            "school.db.classes.id",
+            "school.db.classes"
         ],
         [
-            "classes.class_name",
-            "classes"
+            "school.db.classes.class_name",
+            "school.db.classes"
         ],
         [
-            "classes",
-            "./data/school.db"
+            "school.db.classes",
+            "school.db"
         ],
         [
-            "teachers.id",
-            "teachers"
+            "school.db.teachers.id",
+            "school.db.teachers"
         ],
         [
-            "teachers.name",
-            "teachers"
+            "school.db.teachers.name",
+            "school.db.teachers"
         ],
         [
-            "teachers.subject",
-            "teachers"
+            "school.db.teachers.subject",
+            "school.db.teachers"
         ],
         [
-            "teachers",
-            "./data/school.db"
+            "school.db.teachers",
+            "school.db"
         ],
         [
-            "employees.id",
-            "employees"
+            "company.db.employees.id",
+            "company.db.employees"
         ],
         [
-            "employees.name",
-            "employees"
+            "company.db.employees.name",
+            "company.db.employees"
         ],
         [
-            "employees.position",
-            "employees"
+            "company.db.employees.position",
+            "company.db.employees"
         ],
         [
-            "employees.department_id",
-            "employees"
+            "company.db.employees.department_id",
+            "company.db.employees"
         ],
         [
-            "employees",
-            "./data/company.db"
+            "company.db.employees",
+            "company.db"
         ],
         [
-            "departments.id",
-            "departments"
+            "company.db.departments.id",
+            "company.db.departments"
         ],
         [
-            "departments.department_name",
-            "departments"
+            "company.db.departments.department_name",
+            "company.db.departments"
         ],
         [
-            "departments",
-            "./data/company.db"
+            "company.db.departments",
+            "company.db"
         ],
         [
-            "projects.id",
-            "projects"
+            "company.db.projects.id",
+            "company.db.projects"
         ],
         [
-            "projects.project_name",
-            "projects"
+            "company.db.projects.project_name",
+            "company.db.projects"
         ],
         [
-            "projects.employee_id",
-            "projects"
+            "company.db.projects.employee_id",
+            "company.db.projects"
         ],
         [
-            "projects",
-            "./data/company.db"
-        ],
-        [
-            "school_db",
-            "merged_db"
-        ],
-        [
-            "company_db",
-            "merged_db"
+            "company.db.projects",
+            "company.db"
         ]
     ],
     "node_mapping": {
-        "students.id": 0,
-        "students.name": 1,
-        "students.age": 2,
-        "students.class_id": 3,
-        "students": 4,
-        "classes.id": 5,
-        "classes.class_name": 6,
-        "classes": 7,
-        "teachers.id": 8,
-        "teachers.name": 9,
-        "teachers.subject": 10,
-        "teachers": 11,
-        "./data/school.db": 12,
-        "employees.id": 0,
-        "employees.name": 1,
-        "employees.position": 2,
-        "employees.department_id": 3,
-        "employees": 4,
-        "departments.id": 5,
-        "departments.department_name": 6,
-        "departments": 7,
-        "projects.id": 8,
-        "projects.project_name": 9,
-        "projects.employee_id": 10,
-        "projects": 11,
-        "./data/company.db": 12,
-        "school_db": 26,
-        "company_db": 27,
-        "merged_db": 28
+        "school.db.students.id": 0,
+        "school.db.students.name": 1,
+        "school.db.students.age": 2,
+        "school.db.students.class_id": 3,
+        "school.db.students": 4,
+        "school.db.classes.id": 5,
+        "school.db.classes.class_name": 6,
+        "school.db.classes": 7,
+        "school.db.teachers.id": 8,
+        "school.db.teachers.name": 9,
+        "school.db.teachers.subject": 10,
+        "school.db.teachers": 11,
+        "school.db": 12,
+        "company.db.employees.id": 13,
+        "company.db.employees.name": 14,
+        "company.db.employees.position": 15,
+        "company.db.employees.department_id": 16,
+        "company.db.employees": 17,
+        "company.db.departments.id": 18,
+        "company.db.departments.department_name": 19,
+        "company.db.departments": 20,
+        "company.db.projects.id": 21,
+        "company.db.projects.project_name": 22,
+        "company.db.projects.employee_id": 23,
+        "company.db.projects": 24,
+        "company.db": 25
     }
 }
